@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="DemoTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://ankit:8080/login.do"/>
+    <classes>
+      <class name="TestNG.DemoTest">
+        <methods>
+          <include name="Paramtr"/>
+          <include name="TestDemo"/>
+        </methods>
+      </class> <!-- TestNG.DemoTest -->
+    </classes>
+  </test> <!-- DemoTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
